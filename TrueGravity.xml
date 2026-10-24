@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>9D07CB89-E60D-4085-8C49-52F0D8CAF491</Id>
+    <RepoId>NorthyPark/SE2TrueGravityPlugin</RepoId>
+    <FriendlyName>True Gravity</FriendlyName>
+    <Author>NorthyPark</Author>
+    <Tooltip>Makes 1G actually 1G for all objects.</Tooltip>
+    <Description>True Gravity
+
+Did you know that Space Engineers 2 applies a hidden gravity multiplier of 2 to basically everything? Planets and gravity generators show 1G, but those objects are actually pulled with 2G.
+
+This plugin replaces that multiplier, so 1G really is 1G. The multiplier can be changed in the plugin settings (default 1, the game uses 2). Takes effect the next time a world is loaded.
+
+Note: ships get twice the effective thrust-to-weight compared to vanilla, because the gravity they fight is halved.</Description>
+    <SourceDirectories>
+        <Directory>ClientPlugin</Directory>
+    </SourceDirectories>
+    <Commit>local</Commit>
+</PluginData>
